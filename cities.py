@@ -28,14 +28,14 @@ key = 'dce2563415e74f2e8819acf8b8b36533'
 
 window = Tk()
 window.title('Координаты городов')
-window.geometry('200x100')
+window.geometry('400x100')
 
 
 entry = Entry()
 entry.pack()
 
 
-button = Button(text='Поиск координат', command=get_coordinates)
+button = Button(text='Поиск координат', command=show_coordinates)
 button.pack()
 
 
