@@ -61,7 +61,7 @@ entry.pack()
 entry.bind('<Return>', show_coordinates)
 
 
-button = Button(text='Поиск координат', command=show_coordinates)
+button = Button(text='Поиск координаты', command=show_coordinates)
 button.pack()
 
 
